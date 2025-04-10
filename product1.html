@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products purchase-Zara Therapy Clinic</title>
+    <link rel="stylesheet" href="bootstrap css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/apointment.css"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+</head> 
+<style>
+.card-body {
+  background-color: white; /* White background for card body */
+}
+
+
+
+.btn-primary {
+  background-color: #007bff; /* Blue button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue for button hover */
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded corners for form inputs */
+}
+
+.form-group label {
+  color: #007bff; /* Blue label for form inputs */
+}
+
+.text-primary {
+  color: #007bff; /* Apply blue to primary text */
+}
+
+.text-danger {
+  color: red !important; /* Red color for prices */
+}
+
+.product-card {
+  margin: 20px 0;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+</style>
+<body class="bg-light">
+  <div class="container mt-5">
+    <div class="col-md-6 mx-auto">
+        <div class="card shadow-sm border-light">
+            <div class="card-header bg-primary text-white">
+                <h5 class="card-title fw-bolder">Purchase Information</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <!-- Product Selection (Dropdown) -->
+                    <div class="form-group mb-3">
+                        <label for="product" class="text-primary">Select Product</label>
+                        <select class="form-control" id="product" required>
+                            <option value="" disabled selected>Select a product</option>
+                            <option value="product1" data-price="39.99">Dermal Therapy Lotion - $39.99</option>
+                            <option value="product2" data-price="40.99">Classic Plus Pain Relief - $40.99</option>
+                            <option value="product3" data-price="15.99">Lavender Essential Oil - $15.99</option>
+                            <option value="product4" data-price="5.00">Cliell Face Mask - $5.00</option>
+                            <option value="product5" data-price="15.99">Cliell Virus Guard - $15.99</option>
+                            <option value="product6" data-price="50.00">Painkiller Tablets - $50.00</option>
+                            <option value="product7" data-price="42.00">Grapeseed Massage Oil - $42.00</option>
+                            <option value="product8" data-price="7.00">Mediceuticals Healing Cream - $7.00</option>
+                            <option value="product9" data-price="35.99">Seirin Pain Relief Tablets - $35.99</option>
+                            <option value="product10" data-price="17.00">Red Light Therapy Device - $17.00</option>
+                            <option value="product11" data-price="45.99">Hair Fall Treatment - $45.99</option>
+                            <option value="product12" data-price="32.99">Rosemary Essential Oil - $32.99</option>
+                            <option value="product13" data-price="39.99">Camphor Essential Oil - $39.99</option>
+                            <option value="product14" data-price="40.99">Cypress Essential Oil - $40.99</option>
+                            <option value="product15" data-price="15.99">Thyme Essential Oil - $15.99</option>
+                            <option value="product16" data-price="5.00">Cliell Face Mask - $5.00</option>
+                            <option value="product17" data-price="15.99">Basil Essential Oil - $15.99</option>
+                            <option value="product18" data-price="50.00">Scottish Pine Essential Oil - $50.00</option>
+                            <option value="product19" data-price="42.00">Cinnamon Essential Oil - $42.00</option>
+                            <option value="product20" data-price="7.00">Lavender Essential Oil - $7.00</option>
+                            <option value="product21" data-price="35.99">Lemongrass Essential Oil - $35.99</option>
+                            <option value="product22" data-price="17.00">Pain Support Therapy - $17.00</option>
+                            <option value="product23" data-price="45.99">Arthritis Pain Relief - $45.99</option>
+                            <option value="product24" data-price="32.99">Blue Tansy Essential Oil - $32.99</option>
+                            <option value="product25" data-price="39.99">Essential Oils Box - $39.99</option>
+                            <option value="product26" data-price="40.99">Black Pepper Essential Oil - $40.99</option>
+                            <option value="product27" data-price="15.99">Bergamot Essential Oil - $15.99</option>
+                            <option value="product28" data-price="5.00">Basil Essential Oil - $5.00</option>
+                            <option value="product29" data-price="15.99">Bug Blend Essential Oil - $15.99</option>
+                            <option value="product30" data-price="50.00">Alfalfa Herbal Supplement - $50.00</option>
+                            <option value="product31" data-price="42.00">Barberry Herbal Supplement - $42.00</option>
+                            <option value="product32" data-price="7.00">Angelica Herbal Supplement - $7.00</option>
+                            <option value="product33" data-price="35.99">Blessed Thistle Herbal Supplement - $35.99</option>
+                            <option value="product34" data-price="17.00">Berry Basil Lemonade Tea - $17.00</option>
+                            <option value="product35" data-price="45.99">Ancient Forest Tea - $45.99</option>
+                            <option value="product36" data-price="32.99">Blossoms of Health Tea - $32.99</option>
+                            
+                        </select>
+                        <small class="text-muted">Choose a product to purchase.</small>
+                    </div>
+                    
+                    <!-- Product Price (Displayed based on selection) -->
+                    <div class="form-group mb-3">
+                        <label for="product-price" class="text-primary">Product Price</label>
+                        <input type="text" class="form-control" id="product-price" value="$10.00" readonly >
+                        <small class="text-muted">Price of the selected product.</small>
+                    </div>
+
+                    <!-- Quantity Input -->
+                    <div class="form-group mb-3">
+                        <label for="quantity" class="text-primary">Quantity</label>
+                        <input type="number" class="form-control" id="quantity" value="1" min="1" max="10" required>
+                        <small class="text-muted">Select the quantity you want to purchase (1-10).</small>
+                    </div>
+                    
+                    <!-- Shipping Address Input -->
+                    <div class="form-group mb-3">
+                        <label for="address" class="text-primary">Shipping Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Enter your shipping address" required>
+                        <small class="text-muted">Provide a valid shipping address.</small>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary btn-lg px-4 py-2 w-100">Add to Cart</button>
+                    </div>
+
+                    <!-- Back Button -->
+                    <div class="form-group text-center mt-3">
+                        <a type="Button" class="btn btn-secondary btn-lg px-4 py-2 w-100" href="product.html">Go back</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // JavaScript to update the price based on the selected product
+    document.getElementById('product').addEventListener('change', function() {
+        var productSelect = this;
+        var selectedProduct = productSelect.options[productSelect.selectedIndex];
+        var productPrice = selectedProduct.getAttribute('data-price');
+        document.getElementById('product-price').value = "$" + productPrice;
+    });
+</script>
+
+  <script src="bootstrap js/bootstrap.min.js"></script>
+</body>
+</html>
+  

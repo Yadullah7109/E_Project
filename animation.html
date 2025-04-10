@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", serif;
+    }
+
+    .intro{
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #1a73e8;
+      transition: 1s;
+      text-align: center;
+    }
+
+    .logo-header {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-size: rem;
+      white-space: nowrap;
+    }
+
+    .logo {
+      position: relative;
+      display: inline-block;
+      opacity: 0;
+      bottom: -20px;
+      font-size: 100px;
+      font-weight: bold;
+      color: white;
+      padding-top: 300px;
+    }
+
+    .logo.active{
+      bottom: 0;
+      opacity: 1;
+      transition: ease-in-out 0.9s;
+    }
+
+    .logo.fade{
+      bottom: 150px;
+      opacity: 0;
+      transition: ease-in-out 0.9s;
+    }
+
+    .circle {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border-radius: 50%;
+      opacity: 0;
+    }
+
+    .circle.active {
+      opacity: 1;
+      transition: ease-in-out 1s;
+    }
+
+    .circle.fade {
+      opacity: 0;
+      transition: ease-in-out 1s;
+    }
+  </style>
+</head>
+<body>
+  <div class="intro"> 
+    <h1 class="logo-header "></h1>
+    <span class="logo">Za</span>
+    <span class="logo">ra</span>
+    <span class="logo">Ther</span>
+    <span class="logo">apy</span>
+    <span class="logo">Clinic</span>
+    
+    <!-- Circles -->
+    <div class="circle" style="top: 10%; left: 20%;"></div>
+    <div class="circle" style="top: 30%; left: 50%;"></div>
+    <div class="circle" style="top: 70%; left: 10%;"></div>
+    <div class="circle" style="top: 80%; left: 80%;"></div>
+    <div class="circle" style="top: 20%; left: 70%;"></div>
+    <div class="circle" style="top: 50%; left: 90%;"></div>
+    <div class="circle" style="top: 60%; left: 30%;"></div>
+    <div class="circle" style="top: 40%; left: 10%;"></div>
+    <div class="circle" style="top: 90%; left: 40%;"></div>
+    <div class="circle" style="top: 15%; left: 60%;"></div>
+  </div>
+
+  <script>
+    const intro = document.querySelector('.intro');
+    const logoSpan = document.querySelectorAll('.logo');
+    const circles = document.querySelectorAll('.circle');
+
+    window.addEventListener("DOMContentLoaded", () => {
+        if (!sessionStorage.getItem("animationPlayed")) {
+            sessionStorage.setItem("animationPlayed", "true");
+
+            setTimeout(() => {
+                logoSpan.forEach((span, idx) => {
+                    setTimeout(() => {
+                        span.classList.add('active');
+                    }, (idx + 1) * 200);
+                });
+
+                circles.forEach((circle, idx) => {
+                    setTimeout(() => {
+                        circle.classList.add('active');
+                    }, (idx + 1) * 150);
+                });
+
+                setTimeout(() => {
+                    logoSpan.forEach((span, idx) => {
+                        setTimeout(() => {
+                            span.classList.remove('active');
+                            span.classList.add('fade');
+                        }, (idx + 1) * 900);
+                    });
+
+                    circles.forEach((circle, idx) => {
+                        setTimeout(() => {
+                            circle.classList.remove('active');
+                            circle.classList.add('fade');
+                        }, (idx + 1) * 900);
+                    });
+                }, 2000);
+
+                setTimeout(() => {
+                    intro.style.top = '-100vh';
+                }, 2300);
+            });
+        } else {
+            intro.style.display = "none"; // Hide the intro if animation has already played
+        }
+    });
+</script>
+
+</body>
+</html>

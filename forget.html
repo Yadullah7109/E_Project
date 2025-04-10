@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Password</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-primary">
+  <div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-lg p-4" style="width: 100%; max-width: 400px;">
+      <h2 class="text-center text-primary mb-4">Forgot Password?</h2>
+      <p class="text-center mb-4">Please enter your email address. We will send you a link to reset your password.</p>
+      
+      <!-- Form -->
+      <form id="resetForm">
+        <div class="form-group">
+          <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter your email" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+      
+      <!-- Message Area -->
+      <p id="message" class="text-center mt-3"></p>
+      
+      <!-- Back Link -->
+      <p class="text-center mt-4">
+        <a href="login.html" class="text-primary">Back?</a>
+      </p>
+    </div>
+  </div>
+
+<script>
+    document.getElementById("resetForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        alert("Recovery email sent! Please check your inbox.");
+    });
+</script>
+
+
+</body>
+</html>

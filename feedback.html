@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback-Zara Therapy Clinic</title>
+    <link rel="shortcut icon" href="1-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/feedback.css">
+</head>
+
+<body class="bg-light">
+
+  <!-- marquee -->
+  <div class="container-fluid"><marquee behavior="Animation" scrollamount="10" direction="left">BUY TWO AND GET 70% OFF JUST FOR TODAY</marquee>
+    <!-- marquee -->
+    <!-- navbar -->
+         <!-- Topbar Start -->
+         <div class="container-fluid bg-light text-primary-50 py-2 px-0 d-lg-block d-lg-block" id="jhon">
+          <div class="row gx-0 align-items-center">
+              <div class="col-lg-7 px-5 text-start">
+                  <div class="h-100 d-inline-flex align-items-center me-4">
+                      <small class="fa fa-phone-alt me-2"></small>
+                      <small><a href="tel:+0123456789" class="text-primary-50 text-decoration-none">+012 345 6789</a></small>
+                  </div>
+                  <div class="h-100 d-inline-flex align-items-center me-4">
+                      <small class="far fa-envelope-open me-2"></small>
+                      <small><a href="mailto:info@example.com" class="text-primary-50 text-decoration-none">info@example.com</a></small>
+                  </div>
+              </div>
+              <div class="col-lg-5 px-5 bg-light ">
+                  <ol class="breadcrumb justify-content-end mb-0 d-inline-flex">
+                      <li class="breadcrumb-item h"><a class="text-primary-50 small h text-decoration-none" href="index.html"><span>Home</span></a></li>
+                      <li class="breadcrumb-item h"><a class="text-primary-50 small h text-decoration-none" href="Team.html"><span>Teams</span></a></li>
+                      <li class="breadcrumb-item h"><a class="text-primary-50 small h text-decoration-none" href="contactus.html"><span>Support</span></a></li>
+                      <li class="breadcrumb-item h"> <a class="text-primary-50 small text-decoration-none me-3" href="register.html">Register</a> </li>
+                      <li class="breadcrumb-item h"><a class="text-primary-50 small text-decoration-none" href="login.html">Login</a></li>
+                  </ol>
+                  </div>
+              </div>
+          </div>
+<!-- Topbar End -->
+
+     
+     
+
+  <div class="a1"><img class="qe" src="images/Capture.PNG" height="40px" width="250px" alt=""> 
+    <a class="link" href="Appointment.html">
+      <button id="we" class="btn btn-outline-primary" type="button">Appointment
+      </button>
+    </a>
+  </div>
+
+  <!-- nav start    -->
+
+  <!-- Side Menu -->
+  <div id="sideMenu" class="side-menu bg-light">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeMenu()">×</a>
+    <a class="a2" href="index.html">Home</a>
+    <a class="a2" href="Aboutus.html">About</a>
+    <a class="a2" href="Team.html">Team</a>
+    <a class="a2" href="service.html">Services</a>
+    <a class="a2" href="Appointment.html">Appointment</a>
+    <a class="a2" href="product.html">Products</a>
+    <a class="a2" href="machine.html">Machines</a>
+    <a class="a2" href="Gallery.html">Gallery</a>
+    <a class="a2" href="conatctus.html">ContactUs</a>
+    <a class="a2" href="feedback.html">Feedback</a>
+
+
+
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <nav class="bg-light">
+      <span class="open-btn" onclick="openMenu()">
+
+        ☰
+
+      </span>
+
+    </nav>
+  </div>
+
+
+  <!-- nav end   -->
+  </div>
+   
+ 
+  <div class="container d-flex justify-content-center align-items-center">
+    <form class="rating-box" style="height: 350px; width: 600px;" onsubmit="showAlert(event)">
+        <h4 class="text-primary">Give Your Feedback</h4>
+        <div class="rating my-3">
+            <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+            <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+            <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+            <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+            <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+        </div>
+        <textarea class="form-control mb-3" style="min-height: 150px; resize: none;" rows="3" placeholder="Leave a comment..."></textarea>
+        <button class="btn btn-primary w-100" type="submit">Submit</button>
+    </form>
+</div>
+<script>
+    function showAlert(event) {
+        event.preventDefault(); // Prevents actual form submission
+        alert("Thank you for your feedback!");
+    }
+</script>
+ <!-- Accordion start-->
+     <!-- Therapy Feedback Accordion -->
+  <div class=" container mt-5">
+    <h2 class="text-center text-primary fw-bolder mb-4">Therapy Feedback Questions</h2>
+    <div class="accordion shadow-lg rounded-3" id="therapyFeedbackAccordion">
+
+      <!-- Question 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed bg-primary text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            How would you rate your overall therapy experience?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#therapyFeedbackAccordion">
+          <div class="accordion-body">
+            Please rate your experience on a scale of 1 to 5, with 5 being excellent.
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-light fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Did you feel comfortable during your therapy sessions?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#therapyFeedbackAccordion">
+          <div class="accordion-body">
+            How comfortable were you in sharing your thoughts and feelings with your therapist?
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed bg-primary text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Did the therapy sessions address your main concerns?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#therapyFeedbackAccordion">
+          <div class="accordion-body">
+            Were the sessions focused on the issues you wanted to address, and did you feel heard by the therapist?
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed bg-light fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            How would you rate the therapist's communication skills?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#therapyFeedbackAccordion">
+          <div class="accordion-body">
+            How effective was the therapist at communicating and explaining things to you? Were they easy to understand?
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed bg-primary text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Were the therapy techniques helpful for you?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#therapyFeedbackAccordion">
+          <div class="accordion-body">
+            Were the techniques or methods used in your sessions helpful for managing your concerns or improving your well-being?
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed bg-light fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Do you feel that therapy helped you achieve your goals?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#therapyFeedbackAccordion">
+          <div class="accordion-body">
+            After completing the therapy, do you feel you’ve made progress and achieved your goals?
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+
+<script>
+
+  function submitt(){
+   
+  
+      alert("Thanks for your FeedBack");
+
+  }
+  </script> 
+    <!-- footer start -->
+    <footer class="bg-primary text-white py-4">
+
+      <div class="container">
+  
+        <!-- Section: Social media -->
+        <section class="mb-4 text-center">
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/" target="_blank" class="btn btn-outline-light btn-floating m-1" role="button"
+            aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Google -->
+          <a href="https://www.google.com/" target="_blank" class="btn btn-outline-light btn-floating m-1" role="button"
+            aria-label="Google">
+            <i class="fab fa-google"></i>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/" target="_blank" class="btn btn-outline-light btn-floating m-1"
+            role="button" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- Linkedin -->
+          <a href="https://www.linkedin.com/" target="_blank" class="btn btn-outline-light btn-floating m-1" role="button"
+            aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <!-- Github -->
+          <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fdotnet%2Froslyn%2Fissues%2Fnew%2Fchoose"
+            target="_blank" class="btn btn-outline-light btn-floating m-1" role="button" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social media -->
+  
+        <!-- Footer Links -->
+  
+  
+        <ul class="list-unstyled d-flex justify-content-center  mb-0">
+          <div class="col-md-3 col-sm-6 ad">
+            <div class="footer-info-single">
+              <h2 class="title fs-5 fw-bold">Help Center</h2>
+              <ul class="list-unstyled">
+                <li><a href="conatctus.html" class="text-white text-decoration-none"><i
+                      class="fa fa-angle-double-right"></i> Contact
+                    Us</a></li>
+                <li><a href="Aboutus.html" class="text-white text-decoration-none"><i
+                      class="fa fa-angle-double-right"></i> About Us</a></li>
+  
+              </ul>
+            </div>
+          </div>
+  
+          <div class="col-md-3 col-sm-6 ad">
+            <div class="footer-info-single">
+              <h2 class="title fs-5 fw-bold">Customer info</h2>
+              <ul class="list-unstyled">
+                </li>
+                <li><a href="conatctus.html" class="text-white text-decoration-none"><i
+                      class="fa fa-angle-double-right"></i> Contact
+                    Us</a></li>
+                <li><a href="Aboutus.html" class="text-white text-decoration-none"><i
+                      class="fa fa-angle-double-right"></i> About Us</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="col-md-2 col-sm-6 ad">
+            <div class="footer-info-single">
+              <h2 class="title fs-5 fw-bold"> privacy</h2>
+              <ul class="list-unstyled">
+                <li><a href="http://www.nextbootstrap.com/" class="text-white text-decoration-none"><i
+                      class="fa fa-angle-double-right"></i> Terms Of
+                    Use</a></li>
+  
+              </ul>
+            </div>
+          </div>
+  
+          <div class="col-md-3 col-sm-6 ad">
+            <div class="footer-info-single">
+              <h2 class="title fs-5 fw-bold">Payment</h2>
+  
+  
+              <li>
+              <li class="fa fa-angle-double-right"></li>Debit Cards</li>
+              <li>
+              <li class="fa fa-angle-double-right"></li>PayPal</li>
+              <li>
+              <li class="fa fa-angle-double-right"> </li>Transfer</li>
+              <li>
+              <li class="fa fa-angle-double-right"></li>Apple Pay / Google Pay</li>
+  
+  
+            </div>
+          </div>
+      </div>
+      </div>
+      </ul>
+    </footer>
+    <!-- Copyright Section -->
+    <div class="text-center mt-4">
+      <p class="mb-0 ">© 2025 Copyright :Zara Therapy Clinic.com </p>
+    </div>
+  
+    </div>
+  
+    <!-- footer end -->
+    
+    
+  
+  
+    <!-- menu bar js start  -->
+    <script>
+    
+      function openMenu() {
+        document.getElementById("sideMenu").style.width = "250px";
+        document.querySelector(".main-content").style.marginLeft = "250px";
+      }
+  
+      // Close the side menu
+      function closeMenu() {
+        document.getElementById("sideMenu").style.width = "0";
+        document.querySelector(".main-content").style.marginLeft = "0"
+      }
+      document.addEventListener("DOMContentLoaded", function () {
+      const sideMenu = document.querySelector(".side-menu");
+      const openBtn = document.querySelector(".open-btn");
+      const closeBtn = document.querySelector(".close-btn");
+  
+      openBtn.addEventListener("click", () => {
+          sideMenu.classList.add("active");
+      });
+  
+      closeBtn.addEventListener("click", () => {
+          sideMenu.classList.remove("active");
+      });
+  });
+  
+  
+  </script>
+
+  <script src="bootstrap js/bootstrap.min.js"></script>
+  </body>
+  </html>

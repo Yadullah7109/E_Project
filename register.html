@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="1-removebg-preview.png" type="image/x-icon">
+</head>
+<body class="bg-primary">
+  <div class="container mt-5">
+    <div class="card mx-auto" style="max-width: 500px;">
+      <div class="card-header bg-primary text-white text-center">
+        <h3 class="bg-primary">Sign Up</h3>
+      </div>
+      <div class="card-body">
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Password" required>
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block mt-3">Sign Up</button>
+        </form>
+      </div>
+      <div class="card-footer bg-white text-center">
+        <p>Already have an account? <a href="login.html" class="text-primary">Login here</a></p>
+        <p><a href="index.html" class="text-primary">Back?</a></p>
+      </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("signupForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        alert("Sign Up successful!");
+    });
+</script>
+
+  <br>
+
+  
+</body>
+</html>
