@@ -1,0 +1,74 @@
+let service = [
+  {
+    "title": "Cognitive Behavioral Therapy",
+    "des": "Transform negative thoughts and conquer stress.",
+    "image": "images/b1.webp",
+    "link": "service therapy.html#cbt"
+  },
+  {
+    "title": "Mindfulness Therapy",
+    "des": "Achieve mental clarity and emotional balance.",
+    "image": "images/b2.png",
+    "link": "service therapy.html#mindfulness"
+  },
+  {
+    "title": "Art Therapy",
+    "des": "Express emotions and heal through creativity.",
+    "image": "images/b3.jpg",
+    "link": "service therapy.html#art-therapy"
+  },
+  {
+    "title": "Family Therapy",
+    "des": "Strengthen bonds and resolve conflicts.",
+    "image": "images/b4.webp",
+    "link": "service therapy.html#family-therapy"
+  },
+  {
+    "title": "Couples Therapy",
+    "des": "Enhance communication and improve relationships.",
+    "image": "images/b5.jpg",
+    "link": "service therapy.html#couples-therapy"
+  },
+  {
+    "title": "Trauma Therapy",
+    "des": "Heal from trauma and PTSD with specialized support.",
+    "image": "images/b6.jpg",
+    "link": "service therapy.html#trauma-therapy"
+  },
+  {
+    "title": "Hypnotherapy",
+    "des": "Resolve inner conflicts and transform behavior.",
+    "image": "images/b7.jpg",
+    "link": "service therapy.html#hypnotherapy"
+  },
+  {
+    "title": "Psychodynamic Therapy",
+    "des": "Uncover unconscious emotions affecting behavior.",
+    "image": "images/b8.jpg",
+    "link": "service therapy.html#psychodynamic-therapy"
+  },
+  {
+    "title": "Dialectical Behavioral Therapy",
+    "des": "Improve emotional regulation through mindfulness.",
+    "image": "images/b9.png",
+    "link": "service therapy.html#dbt"
+  },
+  {
+    "title": "Play Therapy",
+    "des": "Help children express emotions and resolve issues.",
+    "image": "images/b10.jpg",
+    "link": "service therapy.html#play-therapy"
+  },
+  {
+    "title": "EMDR Therapy",
+    "des": "Heal trauma with Eye Movement Desensitization.",
+    "image": "images/b11.png",
+    "link": "service therapy.html#emdr-therapy"
+  },
+  {
+    "title": "Narrative Therapy",
+    "des": "Rewrite your story and reclaim your life.",
+    "image": "images/b12.png",
+    "link": "service therapy.html#narrative-therapy"
+  }
+];

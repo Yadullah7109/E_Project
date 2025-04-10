@@ -1,0 +1,218 @@
+let Machines = [
+    {
+        "img": "machine images/1.webp",
+        "title": "TENS Unit (Transcutaneous Electrical Nerve Stimulation)",
+        "price": "$150",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/2.jpg",
+        "title": "Ultrasound Therapy Machine",
+        "price": "$500",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/3.jpg",
+        "title": "Traction Therapy Unit",
+        "price": "$700",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/36.avif",
+        "title": "Interferential Current Therapy (IFC) Machine",
+        "price": "$450",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/4.jpg",
+        "title": "Cryotherapy Machine (Cold Therapy)",
+        "price": "$350",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/5.jpg",
+        "title": "Hot Packs and Heating Pads",
+        "price": "$25",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/6.jpg",
+        "title": "Continuous Passive Motion (CPM) Machine",
+        "price": "$1000",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/7.jpg",
+        "title": "Electrical Stimulation Therapy (NMES) Machine",
+        "price": "$350",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/8.png",
+        "title": "Cryo-Cuff",
+        "price": "$150",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/9.jpg",
+        "title": "Infrared Therapy Machine",
+        "price": "$250",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/10.jpg",
+        "title": "Biofeedback Machine",
+        "price": "$500",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/11.jpg",
+        "title": "Laser Therapy (Low-Level Laser Therapy - LLLT)",
+        "price": "$600",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/12.jpg",
+        "title": "Paraffin Bath",
+        "price": "$120",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/13.jpg",
+        "title": "Vacuum Therapy Machine",
+        "price": "$400",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/14.jpg",
+        "title": "Spinal Decompression Unit",
+        "price": "$1500",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/15.jpg",
+        "title": "Vibration Therapy Machine",
+        "price": "$300",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/16.webp",
+        "title": "Shockwave Therapy Machine",
+        "price": "$800",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/17.jpg",
+        "title": "Therapeutic Exercise Equipment",
+        "price": "$50",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/18.jpg",
+        "title": "Foot and Ankle Therapy Machines",
+        "price": "$150",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/19.jpg",
+        "title": "Neurostimulator",
+        "price": "$600",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/20.png",
+        "title": "Hydrotherapy Pool",
+        "price": "$5000",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/21.webp",
+        "title": "Orthopedic Bracing Machines",
+        "price": "$200",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/22.webp",
+        "title": "Functional Electrical Stimulation (FES) Devices",
+        "price": "$450",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/23.jpg",
+        "title": "Muscle Strengthening Machines",
+        "price": "$700",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/24.webp",
+        "title": "Balance Training Machines",
+        "price": "$350",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/35.jpg",
+        "title": "Pressure Biofeedback",
+        "price": "$300",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/25.avif",
+        "title": "Rehabilitation Robotic Devices",
+        "price": "$8000",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/26.jpg",
+        "title": "E-Stim for Muscle Reeducation",
+        "price": "$400",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/27.jpg",
+        "title": "Air-Compression Devices for Edema",
+        "price": "$250",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/28.jpg",
+        "title": "Laser Diode Therapy",
+        "price": "$500",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/29.png",
+        "title": "Kinesiology Tape for Muscle Support",
+        "price": "$20",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/30.avif",
+        "title": "Ergometer (for cardiovascular and leg strength training)",
+        "price": "$200",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/31.jpg",
+        "title": "Treadmills for Gait Training",
+        "price": "$1000",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/32.png",
+        "title": "Elliptical Trainers for Low-Impact Exercise",
+        "price": "$800",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/33.avif",
+        "title": "Standing Frame Therapy Machines",
+        "price": "$1200",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    },
+    {
+        "img": "machine images/34.jpg",
+        "title": "Knee or Shoulder Continuous Passive Motion (CPM) Devices",
+        "price": "$800",
+        "btn": "<a href='machine purchase.html'  class='btn btn-outline-primary' type='button'>Purchase</a>"
+    }
+];

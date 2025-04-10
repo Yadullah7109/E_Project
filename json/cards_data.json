@@ -1,0 +1,218 @@
+let data = [
+    {
+        "img": "images/1.webp",
+        "title": "Dermal Therapy Lotion",
+        "des": "$39.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/2.jpg",
+        "title": "Classic Plus Pain Relief",
+        "des": "$40.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/3.jpg",
+        "title": "Lavender Essential Oil",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/4.jpg",
+        "title": "Cliell Face Mask",
+        "des": "$5.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/5.jpg",
+        "title": "Cliell Virus Guard",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/6.jpg",
+        "title": "Painkiller Tablets",
+        "des": "$50.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/7.jpg",
+        "title": "Grapeseed Massage Oil",
+        "des": "$42.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/8.jpg",
+        "title": "Mediceuticals Healing Cream",
+        "des": "$7.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/9.jpg",
+        "title": "Seirin Pain Relief Tablets",
+        "des": "$35.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/16.jpg",
+        "title": "Red Light Therapy Device",
+        "des": "$17.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/14.webp",
+        "title": "Hair Fall Treatment",
+        "des": "$45.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/18.jpg",
+        "title": "Rosemary Essential Oil",
+        "des": "$32.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-1.jpg",
+        "title": "Camphor Essential Oil",
+        "des": "$39.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-2.jpg",
+        "title": "Cypress Essential Oil",
+        "des": "$40.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-3.jpg",
+        "title": "Thyme Essential Oil",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-4.jpg",
+        "title": "Cliell Face Mask",
+        "des": "$5.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-5.jpg",
+        "title": "Basil Essential Oil",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-6.jpg",
+        "title": "Scottish Pine Essential Oil",
+        "des": "$50.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-7.jpg",
+        "title": "Cinnamon Essential Oil",
+        "des": "$42.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-8.jpg",
+        "title": "Lavender Essential Oil",
+        "des": "$7.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/attar-9.jpg",
+        "title": "Lemongrass Essential Oil",
+        "des": "$35.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/a2.jpg",
+        "title": "Pain Support Therapy",
+        "des": "$17.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/a7.jpg",
+        "title": "Arthritis Pain Relief",
+        "des": "$45.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c1.jpg",
+        "title": "Blue Tansy Essential Oil",
+        "des": "$32.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c2.jpg",
+        "title": "Essential Oils Box",
+        "des": "$39.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c3.jpg",
+        "title": "Black Pepper Essential Oil",
+        "des": "$40.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c4.jpg",
+        "title": "Bergamot Essential Oil",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c5.jpg",
+        "title": "Basil Essential Oil",
+        "des": "$5.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c6.jpg",
+        "title": "Bug Blend Essential Oil",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c7.jpg",
+        "title": "Alfalfa Herbal Supplement",
+        "des": "$50.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c8.jpg",
+        "title": "Barberry Herbal Supplement",
+        "des": "$42.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c9.jpg",
+        "title": "Angelica Herbal Supplement",
+        "des": "$7.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c10.jpg",
+        "title": "Blessed Thistle Herbal Supplement",
+        "des": "$35.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c11.jpg",
+        "title": "Berry Basil Lemonade Tea",
+        "des": "$17.00",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c12.jpg",
+        "title": "Ancient Forest Tea",
+        "des": "$45.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    },
+    {
+        "img": "images/c13.jpg",
+        "title": "Blossoms of Health Tea",
+        "des": "$32.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary' type='button''>Purchase</a>"
+    }
+];

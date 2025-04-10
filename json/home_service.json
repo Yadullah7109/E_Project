@@ -1,0 +1,20 @@
+let service = [
+    {
+      "title": "Cognitive Behavioral Therapy",
+      "des": "Transform negative thoughts and conquer stress.",
+      "image": "images/b1.webp",
+      "link": "service therapy.html#cbt"
+    },
+    {
+      "title": "Mindfulness Therapy",
+      "des": "Achieve mental clarity and emotional balance.",
+      "image": "images/b2.png",
+      "link": "service therapy.html#mindfulness"
+    },
+    {
+      "title": "Art Therapy",
+      "des": "Express emotions and heal through creativity.",
+      "image": "images/b3.jpg",
+      "link": "service therapy.html#art-therapy"
+    },
+]

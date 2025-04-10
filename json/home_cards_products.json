@@ -1,0 +1,20 @@
+let product_data=[
+    {
+        "img": "images/1.webp",
+        "title": "Dermal Therapy Lotion",
+        "des": "$39.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary w-100' type='button'>Purchase</a>"
+    },
+    {
+        "img": "images/2.jpg",
+        "title": "Classic Plus Pain Relief",
+        "des": "$40.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary w-100' type='button'>Purchase</a>"
+    },
+    {
+        "img": "images/3.jpg",
+        "title": "Lavender Essential Oil",
+        "des": "$15.99",
+        "btn": "<a href='product1.html'  class='btn btn-outline-primary w-100' type='button'>Purchase</a>"
+    },
+]

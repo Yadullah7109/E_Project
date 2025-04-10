@@ -1,0 +1,22 @@
+let doctor_data=[
+
+    {
+        "img": "doctor_images/1.jpg",
+        "title": "Dr. John Smith",
+        "des": "<span class='text-danger'>Cognitive Behavioral Therapy </span>",
+        "btn": "<a class='btn btn-outline-primary w-100' type='button' href='Dr. John Smith.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/2.jpg",
+        "title": "Dr. Emily Johnson",
+        "des": "<span class='text-danger'>Mindfulness Therapy</span>" ,
+        "btn": "<a  class='btn btn-outline-primary w-100' type='button' href='Dr. Emily Johnson.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/3.jpg",
+        "title": "Dr. Michael Brown",
+        "des": "<span class='text-danger'>Art Therapy</span>",
+        "btn": "<a  class='btn btn-outline-primary w-100' type='button'href='Dr. Michael Brown.html'>Book Appointment</a>"
+    },
+]
+

@@ -1,0 +1,74 @@
+let all_doctor = [
+    {
+        "img": "doctor_images/1.jpg",
+        "title": "Dr. John Smith",
+        "des": "Cognitive Behavioral Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. John Smith.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/2.jpg",
+        "title": "Dr. Emily Johnson",
+        "des": "Mindfulness Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Emily Johnson.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/3.jpg",
+        "title": "Dr. Michael Brown",
+        "des": "Art Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Michael Brown.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/4.jpg",
+        "title": "Dr. Sarah Davis",
+        "des": "Family Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Sarah Davis.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/5.jpg",
+        "title": "Dr. James Wilson",
+        "des": "Couples Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. James Wilson.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/6.jpg",
+        "title": "Dr. Olivia Martinez",
+        "des": "Trauma Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Olivia Martinez.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/7.jpg",
+        "title": "Dr. Daniel Clark",
+        "des": "Hypnotherapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Daniel Clark.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/8.webp",
+        "title": "Dr. Sophia Moore",
+        "des": "Psychodynamic Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Sophia Moore.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/9.jpg",
+        "title": "Dr. Lucas Taylor",
+        "des": "Dialectical Behavioral Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Lucas Taylor.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/10.jpg",
+        "title": "Dr. Isabella Thomas",
+        "des": "Play Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Isabella Thomas.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/11.jpg",
+        "title": "Dr. Henry Jackson",
+        "des": "EMDR Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Henry Jackson.html'>Book Appointment</a>"
+    },
+    {
+        "img": "doctor_images/12.jpg",
+        "title": "Dr. Mia White",
+        "des": " Commitment Therapy",
+        "btn": "<a class='btn btn-outline-primary' type='button' href='Dr. Mia White.html'>Book Appointment</a>"
+    }
+]

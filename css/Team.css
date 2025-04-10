@@ -1,0 +1,326 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+html,
+body {
+  overflow-x: hidden;
+  /* Remove horizontal scrollbar */
+  width: 100%;
+  /* Ensure the width is set to 100% */
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+}
+
+
+
+
+.aa {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  top: 10px;
+  left: 500px;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 465px;
+}
+
+
+.ab {
+  position: absolute;
+  top: 40px;
+  left: 360px;
+}
+
+.a {
+  position: absolute;
+  left: 470px;
+  top: 60px;
+  font-size: 34px;
+}
+
+
+
+
+
+/* appoinment home  */
+.a3 {
+  position: absolute;
+  top: 300px;
+  left: 450px;
+  width: 470px;
+
+
+
+}
+
+.a3 button {
+  background-color: white;
+  color: gray;
+  border: gray;
+
+}
+
+.a3 button:hover {
+  background-color: #1a73e8;
+  color: white;
+}
+
+
+/* marquee */
+
+marquee {
+  position: sticky;
+  top: -4px;
+  left: 374px;
+  /* width: 100%; */
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-name: hehe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  color: #1a73e8;
+}
+
+
+
+/* menu bar  */
+.main-content {
+  margin-left: 0;
+  transition: margin-left 0.3s;
+  padding: 16px;
+}
+
+nav {
+  background-color: white;
+}
+
+.a1 {
+  line-height: 100px;
+  background-color: #1a73e8;
+  height: 100px;
+  width: 100%;
+}
+
+
+.open-btn {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.side-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.side-menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(7, 7, 7);
+  display: block;
+  transition: 0.3s;
+}
+
+a.a2:hover {
+  color: #eff2f5;
+  background-color: #1a73e8;
+}
+
+.side-menu .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+#we {
+  position: absolute;
+  top: 115px;
+  right: 20px;
+  background-color: #ffffff;
+color:#1a73e8;
+
+}
+
+#we:hover {
+  background-color: #1a73e8;
+  color:#ffffff;
+  border: 2px solid white;
+  /* Hover background color */
+}
+
+#we:hover .link {
+  color: #1a73e8;
+  /* Ensure text remains white on hover */
+}
+
+.card:hover {
+  transform: translatey(-10%);
+  /* Add a slight hover effect */
+  transition: 0.3s ease-in-out;
+  border: 2px solid #000000;
+  /* Set the border thickness and color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: Adds a soft shadow */
+  background-color: white;
+  /* Set background color */
+
+}
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  }
+
+.des {
+  color: red;
+}
+
+/* Media Query for mobile responsiveness */
+@media only screen and (max-width: 480px) {
+  /* Styles for smaller phones */
+  .open-btn {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    display: none; /* Hide by default */
+  }
+  
+  /* Show only on mobile screens */
+
+    .side-menu {
+     display: block;
+    
+  }
+  
+  .side-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  a.a2:hover {
+    color: #eff2f5;
+    background-color: #1a73e8;
+  }
+  
+  .side-menu .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+
+  
+  marquee {
+    position: sticky;
+    top: -4px;
+    left: 374px;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: hehe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: #1a73e8;
+  }
+
+  #we {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    background-color: #ffffff;
+  color:#1a73e8;
+  
+  }
+  
+  #we:hover {
+    background-color: #1a73e8;
+    color:#ffffff;
+    border: 2px solid white;
+    /* Hover background color */
+  }
+  
+  #we:hover .link {
+    color: #1a73e8;
+    /* Ensure text remains white on hover */
+  }
+  .qe{
+    width: 160px;
+    height: 26px;
+    position: absolute;
+    top: 40px;
+  }
+   .d-lg-block{
+    font-size: 16px;
+    justify-content: center;
+   }
+ .a1{
+  height: 45px;
+ }
+ 
+ .card:hover {
+  transform: translatey(-5%);
+  /* Add a slight hover effect */
+  transition: 0.3s ease-in-out;
+  border: 2px solid #000000;
+  /* Set the border thickness and color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: Adds a soft shadow */
+  background-color: white;
+  /* Set background color */
+ }
+ 
+  #jhon{
+    display: none;
+  }
+  .ad{
+    font-size: 8px;
+
+  }
+}
